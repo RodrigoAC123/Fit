@@ -29,8 +29,8 @@ def user_input_features():
                      'heart_rate': heart_rate,
                      'blood_pressure': blood_pressure,
                      'nutrition_quality': nutrition_quality,
-                     'activity_index': activity_index
-                     'smokes': smokes
+                     'activity_index': activity_index,
+                     'smokes': smokes,
                      'gender': gender
                      }
 
