@@ -21,7 +21,7 @@ def user_input_features():
   nutrition_quality = st.number_input('Que tan bien comes del 1 al 10:', min_value=1, max_value=10, value = 5, step = 1)
   activity_index = st.number_input('Que tanto entrenas del 1 al 5:', min_value=1, max_value=5, value = 3, step = 1)
   smokes = st.number_input('Fumas (2 =  NO,  3 = SI):', min_value=2, max_value=3, value = 2, step = 1)
-  gender = st.number_input('Genero (Mujer = 0,  Hombre = 1):', min_value=0, max_value=1, value = 1 step = 1)
+  gender = st.number_input('Genero (Mujer = 0,  Hombre = 1):', min_value=0, max_value=1, value = 1, step = 1)
   
 
   user_input_data = {"age": age,
