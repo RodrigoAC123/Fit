@@ -18,7 +18,7 @@ def user_input_features():
   weight_kg = st.number_input('Escribe tu peso en kg:', min_value=0, max_value=200, value = 0, step = 1)
   heart_rate = st.number_input('Escribe tu frecuencia cardiaca promedio en reposo (la media esta entre 70-90):',min_value=0, max_value=180, value = 0, step = 1)
   blood_pressure = st.number_input('Escribe tu presión arterial (la media esta entre = 80-140) :', min_value=0, max_value=180, value = 0, step = 1)
-  nutrition_quality = st.number_input('Que tan bien comes del 1 al 10:', min_value=1, max_value=10, value = 0, step = 1))
+  nutrition_quality = st.number_input('Que tan bien comes del 1 al 10:', min_value=1, max_value=10, value = 0, step = 1)
   activity_index = st.number_input('Que tanto entrenas del 1 al 5:', min_value=1, max_value=5, value = 0, step = 1)
   smokes = st.number_input('Fumas (2 =  NO,  3 = SI):', min_value=2, max_value=3, value = 0, step = 1)
   gender = st.number_input('Genero (Mujer = 0,  Hombre = 1):', min_value=0, max_value=1, value = 0, step = 1)
